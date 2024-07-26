@@ -1,3 +1,14 @@
+import React from "react";
+import { Button, Text,Checkbox} from "components";
+
 export default function Root(props) {
-  return <section>{props.name} is mounted!</section>;
+  return (
+    <section>
+      <div>
+    <Button />
+    <Text />
+    <Checkbox/>
+  </div>
+    </section>
+  );
 }

@@ -45,6 +45,7 @@
   "dependencies": {
     "react": "^18",
     "react-dom": "^18",
-    "single-spa-react": "^6.0.1"
+    "single-spa-react": "^6.0.1",
+    "components":"0.0.1"
   }
 }
