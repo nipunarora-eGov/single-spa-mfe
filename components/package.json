@@ -9,8 +9,8 @@
     "node": ">=14"
   },
   "scripts": {
-    "build": "microbundle-crl --compress --no-sourcemap --format cjs",
-    "start": "microbundle-crl watch --no-compress --format modern,cjs",
+    "build": "concurrently npm:build:*",
+    "start": "webpack serve",
     "prepare": "yarn build"
   },
   "peerDependencies": {
